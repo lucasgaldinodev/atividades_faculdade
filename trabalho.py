@@ -4,7 +4,11 @@ import socket
 
 # Dessa forma conseguimos passar os parâmetros via terminal
 url = sys.argv[1]
-method = sys.argv[2]
+method = sys.argv[2].upper()
+print(method)
+payload = '0'
+if len(sys.argv) == 4:
+    payload = sys.argv[3]
 
 # Aqui criamos o socket e definimos a conexão
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -30,3 +34,7 @@ if(http_response):
 
 if(http_response_len > 0):
     print(f'Dados recebidos: {http_response}')
+
+if(payload != '0' and method == "POST"):
+    client.sendall(payload.encode())
+    print(f'Payload: "{payload}" enviado!')
