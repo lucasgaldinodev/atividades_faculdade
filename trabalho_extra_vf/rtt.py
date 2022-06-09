@@ -11,8 +11,8 @@ def calcular(alfa, srtt, ertt, drtt):
 
 
 resposta = 's'
-initERTT = 100
-initDRTT = 5
+initERTT = float(input("EstimatedRTT inicial: "))
+initDRTT = float(input("DevRTT inicial: "))
 alfa = float(input("Valor do alfa: "))
 beta = float(input("Valor do beta: "))
 srtt = []
