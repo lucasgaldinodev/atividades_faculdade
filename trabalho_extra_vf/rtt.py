@@ -1,6 +1,3 @@
-# Fiz de acordo com a questão 16 da lista de exercícios para a VF
-# utilizando como valores iniciais de ERTT o 100ms e de DRTT 5ms
-
 def calcular(alfa, srtt, ertt, drtt):
     ertt = (1 - alfa) * ertt + alfa * srtt
     drtt = (1 - beta) * drtt + beta * abs(srtt - ertt)
@@ -11,10 +8,10 @@ def calcular(alfa, srtt, ertt, drtt):
 
 
 resposta = 's'
-initERTT = float(input("EstimatedRTT inicial: "))
-initDRTT = float(input("DevRTT inicial: "))
 alfa = float(input("Valor do alfa: "))
 beta = float(input("Valor do beta: "))
+initERTT = float(input("EstimatedRTT inicial: "))
+initDRTT = float(input("DevRTT inicial: "))
 srtt = []
 
 while resposta == 's':
