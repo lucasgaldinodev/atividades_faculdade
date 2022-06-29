@@ -1,0 +1,15 @@
+Professor, só pra explicar sobre o que ocorreu com esse trabalho.
+
+Como eu estou nos últimos semestres da faculdade, sobraram apenas as cadeiras com as quais 
+eu tenho mais dificuldade. A parte teórica eu consigo entender bem e atividades menores eu 
+consigo resolver tranquilamente também. Mas nesses trabalhos mais complexos minha cabeça só 
+não funciona mesmo.
+
+Por conta disso esse trabalho acabou ficando incompleto na parte principal dele. 
+Eu consegui fazer o OAuth utilizando Login com Google por se tratar de algo mais do front 
+e por eu já ter trabalhado com um projeto que utiiza isso lá no trabalho. Então a questão 
+extra até está certa mas a principal não consegui desenvolver bem.
+
+Não sei se a questão do OAuth pode me render algum ponto para a vp2, então decidi fazer 
+a prova mesmo, pois me sinto mais confiante com a parte teórica mesmo. Enfim, obrigado
+por ler até aqui.

@@ -1,0 +1,14 @@
+Nesse exemplo estou utilizando:
+
+Python na versão 3.7.3:
+https://www.python.org/downloads/
+
+Banco de Dados MySQL + Workbench:
+https://www.mysql.com/downloads/
+(Quando instalei o banco de dados, ele tinha uma opção de módulo do Python e eu instalei junto,
+só que quando fiz isso tive problemas ao rodar qualqer coisa em Python pq ele instalou uma outra
+versão em cima da que eu tinha, ficaram as duas instaladas. Tive que desinstalar todas e reinstalar
+a versão mais atual, 3.7.3, novamente, ai deu tudo certo.)
+
+MySQL Connector for Python:
+https://dev.mysql.com/downloads/connector/python/

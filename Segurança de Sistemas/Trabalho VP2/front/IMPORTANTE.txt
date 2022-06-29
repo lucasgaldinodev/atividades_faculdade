@@ -1,0 +1,17 @@
+Para executar o projeto é necessário...
+1 - Utilizar o "npm i" na pasta do projeto
+2 - criar um arquivo chamado ".env.local" na pasta raiz do projeto
+3 - nesse arquivo criar as variáveis...
+    3.1 - NEXT_PUBLIC_FIREBASE_API_KEY
+    3.2 - NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    3.3 - NEXT_PUBLIC_FIREBASE_PROJECT_ID
+4. criar um projeto no firebase console, https://console.firebase.google.com/?hl=pt-br
+5. dentro do projeto criado, criar uma versão web do mesmo
+6. durante a criação serão apresentadas as chaves do projeto
+7. inserir as chaves dentro do arquivo .env.local da seguinte forma, sem aspas
+    7.1 - NEXT_PUBLIC_FIREBASE_API_KEY=apiKey
+    7.2 - NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=authDomain
+    7.3 - NEXT_PUBLIC_FIREBASE_PROJECT_ID=projectId
+8. dentro do firebase, ativar modo de autencação com email/senha e google
+9. agora basta executar o projeto co o comando "npm run dev"
+10. utilizar a porta localhost:3000 para acessar o projeto
